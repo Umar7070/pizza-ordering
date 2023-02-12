@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  padding-left: 10px;
+}
+h1 {
+  color: pink;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.hero-para {
+  width: 50%;
+  margin-top: 10px;
+}
+.btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: rgb(0, 255, 110);
+  border-radius: 10px;
+  margin-top: 20px;
+  color: rgb(206, 20, 20);
+}
+.btn .btn-nav {
+  text-decoration: none;
+  color: white;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+}
